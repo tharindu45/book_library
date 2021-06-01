@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background: url("img/p9.jpg");
+            background-color:rgba(66, 95, 241, 0.11);
+            background-blend-mode: luminosity;
+            background-size: cover;
+	        background-position: center;
+        }
+        .book-details{
+            position: relative;
+            left:30%;
+            top:210px;
+            color:rgb(253, 246, 246);
+        }
+        .book-details a{
+            position: relative;
+            left:10px;
+        }
+        .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+        .description .content a{
+            position:relative;
+            margin:20px;
+            padding:10px 20px;
+            text-decoration:none;
+            border:3px solid rgb(246, 246, 248);
+            display:inline-block;
+            color:rgb(247, 242, 245);;
+            transition:0.5s;
+            transform:translateY(-40px);
+            opacity:0;
+            visibility:hidden;
+        }
+        .description:hover .content a{
+            transform:translateY(0);
+            opacity:1;
+            visibility:visible;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#!"><i>Books were my pass to personal freedom.......</i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="description">
+        <div class="book-details content">
+            <h1>Welcome</h1>
+            <span>
+                <h2>My Book  Library......</h>
+            </span><br>
+            <a href="view.php">View</a>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
